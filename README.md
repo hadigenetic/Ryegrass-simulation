@@ -18,4 +18,4 @@ The paremeter file of the QMSim (QMSim.par) can be used for the creation of base
 ### Scenarios
 Different scenarios were compared to a conventional breeding program. Simulated scenarios differed in the method of selection and structure of the breeding program. Two scenarios (Phen-Y12 and Phen) for phenotypic selection and three scenarios (GS-Y12, GS and GS-SP) were considered for genomic breeding schemes. The R codes used for the simulation are attached. 
 
-To start for the simulation, first QMSim should run with the parameter file (QMSim.par) to create initial varieties. The R codes will use the output of QMSim to do simulate diffrent scenarios.
+To start the simulation, first QMSim should run with the parameter file (QMSim.par) to create initial varieties. Then, R codes can be used to simulate diffrent scenarios.
