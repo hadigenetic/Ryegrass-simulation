@@ -1,0 +1,500 @@
+/*******************************
+ **     Global parameters     **
+ *******************************/
+title = "Ryegrass Base Pop";
+nrep  = 1;                    //Number of replicates
+h2    = 0.3;                  //Heritability, will be simulated again
+qtlh2 = 0.3;                  //QTL heritability
+phvar = 1.0;                  //Phenotypic variance
+
+/*******************************
+ **   Historical population   **
+ *******************************/
+begin_hp;
+   hg_size = 2000[0] 2000[1000] 1000[2000] ;         //Size of the historical generations
+end_hp;
+
+/*******************************
+ **        Populations        **
+ *******************************/
+begin_pop = "Var1";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var2";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var3";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var4";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var5";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var6";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var7";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var8";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var9";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var10";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var11";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var12";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var13";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var14";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var15";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var16";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var17";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var18";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var19";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+begin_pop = "Var20";
+   begin_founder;
+      male   [n = 200, pop = "hp",select=rnd];
+      female [n = 200, pop = "hp",select=rnd];
+   end_founder;
+  
+   ls  = 5;                 //Litter size
+   pmp = 0.5 /fix;            //Proportion of male progeny
+   md = rnd;
+   ng = 1;                   //Number of generations
+   sd = rnd;
+
+   begin_popoutput;
+   data /gen  1;
+        stat;
+        genotype  /gen 1;       
+   end_popoutput;
+end_pop;
+
+
+/*******************************
+ **          Genome           **
+ *******************************/
+begin_genome;
+//chromosome 1
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+
+//chromosome 2
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+	  //chromosome 3
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+	  //chromosome 4
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+	  //chromosome 5
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+	  //chromosome 6
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+	  //chromosome 7
+   begin_chr = 1;
+      chrlen = 100;          //Chromosome length
+      nmloci = 2000;         //Number of markers
+      mpos   = rnd ;        //Marker positions
+      nma    = all 2;       //Number of marker alleles
+      maf    = rnd;         //Marker allele frequencies
+      nqloci = 200;          //Number of QTL
+      qpos   = rnd;         //QTL positions
+      nqa    =all 2 ;       //Number of QTL alleles
+      qaf    = rnd ;         //QTL allele frequencies
+      qae    = rndg 0.4;    //QTL allele effects
+      end_chr;
+	  
+ select_seg_loci  /maft 0.05 /nqtl 700
+                   /nmrk 7000;
+
+
+
+   mmutr     = 2.5e-5 /recurrent;            //Marker mutation rate
+   qmutr     = 2.5e-5 /recurrent;            //QTL mutation rate
+end_genome;
+
+/*******************************
+ **       Output options      **
+ *******************************/
+begin_output;
+   allele_effect;
+   hp_stat; 
+   linkage_map;
+end_output;
